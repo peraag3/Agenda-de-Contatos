@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Agenda de Contatos</h1>
+            <p>Todos os seus contatos, sempre ao seu alcance.</p>
+        </header>
+
+        <main>
+            <section class="form-section">
+                <h2>Adicionar Novo Contato</h2>
+                <form id="contactForm">
+                    <div class="input-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" placeholder="Digite o nome completo" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite o e-mail" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="phone">Telefone:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Digite o telefone" required>
+                    </div>
+                    <button type="submit">Adicionar Contato</button>
+                </form>
+            </section>
+
+            <section class="list-section">
+                <h2>Lista de Contatos</h2>
+                <div class="search-container">
+                    <input type="search" id="search" placeholder="Buscar por nome ou e-mail">
+                </div>
+                <ul id="contactList">
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025, 404 Innovations. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
