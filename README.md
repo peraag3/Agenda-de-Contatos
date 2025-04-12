@@ -10,7 +10,7 @@ Frontend: HTML, CSS, JavaScript
 
 Backend: MySQL (para armazenamento de dados)
 
-Arquivos do Projeto
+Arquivos do Projeto:
 
 
 1. index.html
