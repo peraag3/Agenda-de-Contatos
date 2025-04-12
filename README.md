@@ -1,4 +1,5 @@
 Agenda de Contatos
+
 Este é um projeto simples de Agenda de Contatos, onde você pode facilmente adicionar, editar, excluir e buscar contatos. Desenvolvido com HTML, CSS, JavaScript para o frontend e MySQL para armazenamento de dados.
 
 Tecnologias Utilizadas
