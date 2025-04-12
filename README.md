@@ -58,7 +58,7 @@ Criação da Tabela de Contatos: A tabela contatos com os campos id (auto-increm
 Como Usar:
 
 
-Configuração do Banco de Dados:
+- Configuração do Banco de Dados
 
 Importe o arquivo banco.sql no seu sistema MySQL para criar o banco de dados e a tabela de contatos.
 
@@ -66,7 +66,7 @@ Conecte a aplicação ao banco de dados (isso pode exigir configurações no bac
 
 
 
-Inicie a Aplicação:
+- Inicie a Aplicação:
 
 Abra o arquivo index.html em seu navegador para visualizar e usar a aplicação.
 
