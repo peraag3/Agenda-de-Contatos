@@ -20,12 +20,16 @@ Lista de Contatos: Exibe todos os contatos cadastrados com opções para editar 
 
 Barra de Busca: Permite buscar contatos por nome ou e-mail.
 
+
+
 2. styles.css
 Este arquivo contém os estilos da aplicação, que tornam a interface mais moderna e agradável. Ele define:
 
 Design Responsivo: Layout adaptável para diferentes tamanhos de tela.
 
 Interatividade: Efeitos de hover, focus e transições suaves nos elementos interativos (botões e campos de entrada).
+
+
 
 3. script.js
 O JavaScript gerencia a interação da aplicação. Ele oferece:
@@ -36,12 +40,16 @@ Busca de Contatos: Filtra a lista de contatos com base na pesquisa por nome ou e
 
 Armazenamento Temporário: Os contatos são armazenados em memória durante a sessão (até que a página seja recarregada).
 
+
+
 4. banco.sql
 Este arquivo contém a definição do banco de dados MySQL, incluindo:
 
 Criação do Banco de Dados: Criação do banco agenda_contatos.
 
 Criação da Tabela de Contatos: A tabela contatos com os campos id (auto-incremento), nome, email e telefone.
+
+
 
 5. Backend com Node.js
 Este arquivo foi criado para gerenciar a parte do backend utilizando Node.js e conectar com o banco de dados MySQL. Ele permite que o frontend se comunique com o banco de dados para adicionar, editar, excluir e buscar contatos.
