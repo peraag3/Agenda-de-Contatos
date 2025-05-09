@@ -1,3 +1,4 @@
+// backend/controllers/contatoController.js
 const db = require('../db');
 
 exports.getAllContatos = (req, res) => {
